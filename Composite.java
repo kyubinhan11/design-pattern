@@ -16,7 +16,7 @@ public interface IStructure {
   public string getName();
 }
 
-// Step 2; Implement composite class
+// Step 2; Implement the composite class
 public class Housing implements IStructure {
   private ArrayList<IStructure> structures;
   private String address;

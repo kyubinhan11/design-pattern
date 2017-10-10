@@ -6,7 +6,7 @@
   removes the need for client classes to manage a subsystem on their own, resulting in less coupling between the subsystem and the client classes.
 
   it also handles instantiation and redirection of tasks to the appropriate class within the subsystem
-  
+
   it provide a single simplfied interface for client classes to interact with the subsystem
 */
 
@@ -29,7 +29,7 @@ public class BankService {
   private HashTable<int, IAcount> bankAccounts;
 
   public BankService(){
-    this.bankAccounts = new HashTable<int, IAcount>;
+    this.bankAccounts = new HashTable<int, IAcount>();
   }
 
   public int createNewAccount(String type, BigDecimal initAmount) {
