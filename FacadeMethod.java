@@ -1,9 +1,11 @@
 /*
   Information Hiding
 
-  it is a means to hide the complexcity of a subsystem by encapsulating it behind a unifying wrapper called a facade class.
+  it is a means to hide the complexcity of a subsystem by
+  encapsulating it behind a unifying wrapper called a facade class.
 
-  removes the need for client classes to manage a subsystem on their own, resulting in less coupling between the subsystem and the client classes.
+  removes the need for client classes to manage a subsystem on their own,
+  resulting in less coupling between the subsystem and the client classes.
 
   it also handles instantiation and redirection of tasks to the appropriate class within the subsystem
 

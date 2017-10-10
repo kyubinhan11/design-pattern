@@ -1,11 +1,14 @@
 /*
-  Enforcing polymorphism across each class through implementing an interface (or inheriting from a superclass)
+  Enforcing polymorphism across each class through implementing an interface
 
-  The composite design pattern is used to solve the issues of how to build a tree-like structure of objects, and how to treat the individual types of those objects uniformly
+  The composite design pattern is used to solve the issues of how to build a tree-like structure of objects,
+  and how to treat the individual types of those objects uniformly
 
-  Each individual class is a subtype of an interface or superclass, and will be able to conform to a set of shared behaviors.
+  Each individual class is a subtype of an interface or superclass,
+  and will be able to conform to a set of shared behaviors.
 
-  the composite class is capable of aggregating component classes, which will create a tree-like structure
+  the composite class is capable of aggregating component classes,
+  which will create a tree-like structure
 */
 
 // Step 1: Design the interface that defines the overall types
@@ -23,7 +26,7 @@ public class Housing implements IStructure {
 
   public Housing (String address){
     this.structures = new ArrayList<IStructure>();
-    this.address = address;
+    this.address = address;`
   }
 
   public String getName(){

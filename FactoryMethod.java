@@ -1,7 +1,8 @@
 /*
   Coding to an interface, not an implementation
 
-  the factory method design intent is to define an interface for creating objects, but let the subclassses decide which class to instantiate
+  the factory method design intent is to define an interface for creating objects,
+  but let the subclassses decide which class to instantiate
 */
 
 public abstract class KnifeStore {

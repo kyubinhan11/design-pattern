@@ -1,5 +1,6 @@
 /*
-  the adapter essentially encapsulates the adaptee and presents a new interface, or appearnce, to the client class. It does this by wrapping the adaptee's interface and exposing a new target interface that makes sense to the client.
+  the adapter essentially encapsulates the adaptee and presents a new interface, or appearnce, to the client class.
+  It does this by wrapping the adaptee's interface and exposing a new target interface that makes sense to the client.
 
   an adapter is meant to:
 

@@ -1,11 +1,14 @@
 /*
   Local representation, less resource intensive
 
-  it protects the real subject class by checking the client's request and controlling access to the real subject class.
+  it protects the real subject class by checking the client's request and
+  controlling access to the real subject class.
 
-  it acts as a wrapper class for the real subject class. Client classes cna then interact with the proxy class, which transfers requests to the real subject class.
+  it acts as a wrapper class for the real subject class.Client classes can then interact with the proxy class,
+  which transfers requests to the real subject class.
 
-  it implements some form of intelligent verification of requests from client code in order to determine if, how, and to whom the request should be forwarded to.
+  it implements some form of intelligent verification of requests from client code
+  in order to determine if, how, and to whom the request should be forwarded to.
 */
 
 // Step 1: Design the subject interface
